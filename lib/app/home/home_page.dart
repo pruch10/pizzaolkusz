@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text('Jesteś zalogowany jako${user.email}'),
+        child: Text('Jesteś zalogowany jako ${user.email}'),
       ),
     );
   }
