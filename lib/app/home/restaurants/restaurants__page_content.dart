@@ -32,16 +32,11 @@ class RestaurantPageContent extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          document['name'],
-                        ),
-                        Text(
-                          document['pizza'],
-                        ),
-                      ],
-                    ),
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(document['name']),
+                          Text(document['pizza']),
+                        ]),
                     Text(document['rating'].toString()),
                   ],
                 ),
