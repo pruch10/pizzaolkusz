@@ -55,7 +55,7 @@ class _AddOpinionPageContentState extends State<AddOpinionPageContent> {
               divisions: 10,
               label: rating.toString(),
             ),
-            SizedBox(height: 50),
+            const SizedBox(height: 50),
             ElevatedButton(
               onPressed: restaurantName.isEmpty || pizzaName.isEmpty
                   ? null

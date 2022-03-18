@@ -1,6 +1,5 @@
 part of 'restaurants_cubit.dart';
 
-@immutable
 class RestaurantsState {
   List<QueryDocumentSnapshot<Map<String, dynamic>>> documents;
   final bool isLoading;
